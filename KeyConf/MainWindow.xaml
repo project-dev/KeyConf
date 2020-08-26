@@ -1,0 +1,9 @@
+﻿<Window x:Class="KeyConf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Key Config" Height="250" Width="393" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <TextBox Height="158" HorizontalAlignment="Left" Margin="12,12,0,0" Name="txtHist" VerticalAlignment="Top" Width="347" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" IsReadOnly="True" TextWrapping="Wrap" />
+        <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="284,176,0,0" Name="btnOK" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</Window>
